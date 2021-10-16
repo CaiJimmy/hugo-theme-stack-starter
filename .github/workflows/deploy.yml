@@ -1,0 +1,54 @@
+name: Deploy to Github Pages
+
+on:
+    push:
+        branches: [master]
+    pull_request:
+        branches: [master]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Cache Hugo resources
+              uses: actions/cache@v2
+              env:
+                  cache-name: cache-hugo-resources
+              with:
+                  path: resources
+                  key: ${{ env.cache-name }}
+
+            - uses: actions/setup-go@v2
+              with:
+                  go-version: "^1.17.0"
+            - run: go version
+
+            - name: Cache Go Modules
+              uses: actions/cache@v2
+              with:
+                  path: |
+                      ~/.cache/go-build
+                      ~/go/pkg/mod
+                  key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+                  restore-keys: |
+                      ${{ runner.os }}-go-
+
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: "latest"
+                  extended: true
+
+            - name: Build
+              run: hugo --minify --gc
+
+            - name: Deploy 🚀
+              uses: JamesIves/github-pages-deploy-action@4.1.4
+              with:
+                  branch: gh-pages
+                  folder: public
+                  clean: true
+                  single-commit: true
