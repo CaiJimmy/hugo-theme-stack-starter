@@ -24,6 +24,9 @@ jobs:
       - name: Update theme
         run: hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3
 
+      - name: Tidy go.mod, go.sum
+        run: hugo mod tidy
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
