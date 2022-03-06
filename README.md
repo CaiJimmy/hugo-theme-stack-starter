@@ -21,7 +21,7 @@ To get started:
 ![GitHub action](https://user-images.githubusercontent.com/5889006/156916881-90b8bb9b-1925-4e60-9d7a-8026cda729bf.png)
 ---
 
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. You need to install Git, Go and Hugo extended locally.
+In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.**
 
 ### Update theme manually
 
