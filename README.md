@@ -13,7 +13,6 @@ To get started:
 ![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
 
 3. And voila! You're ready to go. The codespace has been configured with the latest version of Hugo extended, just run `hugo server` in the terminal and see your new site in action.
-![image](https://user-images.githubusercontent.com/5889006/156916773-91429a89-a439-4a7a-ae5e-2f2a04f12f21.png)
 
 4. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL.
 
