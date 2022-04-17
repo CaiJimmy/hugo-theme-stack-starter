@@ -8,6 +8,7 @@ categories:
     - Example Category
 tags:
     - Example Tag
+draft: false
 ---
 
 Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
