@@ -17,7 +17,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "hugo",
+            "command": "hugo --minify",
             "group": {
                 "kind": "build",
                 "isDefault": true
