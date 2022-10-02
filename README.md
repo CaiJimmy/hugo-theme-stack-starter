@@ -43,7 +43,7 @@ If you want to build this site using another static page hosting, you need to ma
 You need to overwrite build command to install manually Go:
 
 ```
-amazon-linux-extras install golang1.11 && hugo -D --gc
+amazon-linux-extras install golang1.11 && hugo --gc --minify
 ```
 
 ![](https://user-images.githubusercontent.com/5889006/156917172-01e4d418-3469-4ffb-97e4-a905d28b8424.png)
