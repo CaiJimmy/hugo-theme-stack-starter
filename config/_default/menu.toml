@@ -22,3 +22,11 @@ url = "https://twitter.com"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "qq"
+name = "QQ"
+url = "https://im.qq.com/pcqq"
+
+[social.params]
+icon = "brand-qq"
