@@ -46,9 +46,9 @@ jobs:
               run: hugo --minify --gc
 
             - name: Deploy 🚀
-              uses: JamesIves/github-pages-deploy-action@4.1.4
-              with:
-                  branch: gh-pages
-                  folder: public
-                  clean: true
-                  single-commit: true
+              uses: s0/git-publish-subdir-action@develop
+              env:
+                REPO: self
+                BRANCH: gh-pages
+                FOLDER: public
+                GITHUB_TOKEN: ${{ secrets.FLOW_TOKEN }}
