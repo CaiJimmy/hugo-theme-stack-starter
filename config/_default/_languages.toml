@@ -1,0 +1,6 @@
+# Rename this file to languages.toml to enable multilingual support
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "Example Site"
+weight = 1
