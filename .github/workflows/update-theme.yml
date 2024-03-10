@@ -18,12 +18,12 @@ jobs:
       contents: write
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.115.2
+          hugo-version: 0.123.8
           extended: true
 
       - name: Update theme
@@ -33,6 +33,6 @@ jobs:
         run: hugo mod tidy
 
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "CI: Update theme"
