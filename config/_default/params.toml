@@ -5,16 +5,16 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
-customText = ""
+since = 2023
+customText = "版权归鲁丛瑜所有"
 
 [dateFormat]
 published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = "😉"
+subtitle = "我的辫子长在头上，诸君的辫子长在心里。 ---辜鸿铭"
 
 [sidebar.avatar]
 enabled = true
@@ -104,8 +104,8 @@ clientSecret = ""
 autoCreateIssue = false
 
 [comments.waline]
-serverURL = ""
-lang = ""
+serverURL = "https://waline-1-v2177860.deta.app/"
+lang = "zh-cn"
 visitor = ""
 avatar = ""
 emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]

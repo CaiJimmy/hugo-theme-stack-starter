@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: 笔记
+description: 没什么可解释的
 image:
 
 # Badge style
