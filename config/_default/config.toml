@@ -1,7 +1,6 @@
 # Change baseurl before deploy
 baseurl = "https://demo.stack.jimmycai.com"
 languageCode = "en-us"
-paginate = 5
 title = "Hugo Theme Stack Starter"
 
 # Theme i18n support
@@ -14,3 +13,6 @@ hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
 disqusShortname = "hugo-theme-stack"
+
+[pagination]
+pagerSize = 5

@@ -11,7 +11,7 @@ It comes with a basic theme structure and configuration. GitHub action has been 
 1. Click *Use this template*, and create your repository as `<username>.github.io` on GitHub.
 ![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
 
-2. Once the repository is created, create a GitHub codespace asociated with it.
+2. Once the repository is created, create a GitHub codespace associated with it.
 ![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
 
 3. And voila! You're ready to go. The codespace has been configured with the latest version of Hugo extended, just run `hugo server` in the terminal and see your new site in action.
@@ -53,6 +53,15 @@ amazon-linux-extras install golang1.11 && hugo --gc --minify
 ```
 
 ![](https://user-images.githubusercontent.com/5889006/156917172-01e4d418-3469-4ffb-97e4-a905d28b8424.png)
+
+If you are using Node.js 20, you need to overwrite the install command to install manually Go:
+
+```
+dnf install -y golang
+```
+
+![image](https://github.com/zhi-yi-huang/hugo-theme-stack-starter/assets/83860323/777c1109-dfc8-4893-9db7-1305ec027cf5)
+
 
 Make sure also to specify Hugo version in the environment variable `HUGO_VERSION` (Use the latest version of Hugo extended):
 
