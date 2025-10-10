@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Example Tag on Hugo Theme Stack Starter</title><link>https://demo.stack.jimmycai.com/tags/example-tag/</link><description>Recent content in Example Tag on Hugo Theme Stack Starter</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/example-tag/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://demo.stack.jimmycai.com/p/hello-world/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/hello-world/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
+&lt;p&gt;For more information about this theme, check the documentation: &lt;a class="link" href="https://stack.jimmycai.com/" target="_blank" rel="noopener"
+&gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+&gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+&gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+&gt;Unsplash&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</description></item></channel></rss>
