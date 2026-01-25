@@ -23,7 +23,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.123.8
+          hugo-version: 0.154.2
           extended: true
 
       - name: Update theme
