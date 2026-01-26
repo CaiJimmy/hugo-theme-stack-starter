@@ -19,8 +19,7 @@ In case you got lost during the setup process, here's a video tutorial that setu
 ![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
 
 3. While waiting for the codespace to be created, go to `Settings` -> `Pages` of your newly created repository, and set `Build and deployment` -> `Source` to `GitHub Actions`.
-
-![Change build and deployment source](https://github.com/user-attachments/assets/1e4b69ee-de5d-449c-b652-6ba800fbfaba)
+![Change build and deployment source](https://github.com/user-attachments/assets/192459bf-25d8-441e-8029-c108d789e449)
 
 4. After the codespace is created, you can test that the site is built successfully by running `hugo server` in the terminal and see your new site in action. 
 
