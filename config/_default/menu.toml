@@ -8,17 +8,17 @@
 #newtab = true
 
 [[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+    identifier = "github"
+    name       = "GitHub"
+    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
 
-[social.params]
-icon = "brand-github"
+    [social.params]
+        icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+    identifier = "twitter"
+    name       = "Twitter"
+    url        = "https://twitter.com"
 
-[social.params]
-icon = "brand-twitter"
+    [social.params]
+        icon = "brand-twitter"

@@ -1,26 +1,26 @@
 # Markdown renderer configuration
 [goldmark.renderer]
-unsafe = true
+    unsafe = true
 
 [goldmark.extensions.passthrough]
-enable = true
+    enable = true
 
-# LaTeX math support
-# https://gohugo.io/content-management/mathematics/
-[goldmark.extensions.passthrough.delimiters]
-block = [['\[', '\]'], ['$$', '$$']]
-inline = [['\(', '\)']]
+    # LaTeX math support
+    # https://gohugo.io/content-management/mathematics/
+    [goldmark.extensions.passthrough.delimiters]
+        block  = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)']]
 
 [tableOfContents]
-endLevel = 4
-ordered = true
-startLevel = 2
+    endLevel   = 4
+    ordered    = true
+    startLevel = 2
 
 [highlight]
-noClasses = false
-codeFences = true
-guessSyntax = true
-lineNoStart = 1
-lineNos = true
-lineNumbersInTable = true
-tabWidth = 4
+    noClasses          = false
+    codeFences         = true
+    guessSyntax        = true
+    lineNoStart        = 1
+    lineNos            = true
+    lineNumbersInTable = true
+    tabWidth           = 4

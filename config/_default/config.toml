@@ -1,10 +1,10 @@
 # Change baseurl before deploy
-baseurl = "https://caijimmy.github.io/hugo-theme-stack-starter/"
+baseurl      = "https://caijimmy.github.io/hugo-theme-stack-starter/"
 languageCode = "en-us"
-title = "Hugo Theme Stack Starter"
+title        = "Hugo Theme Stack Starter"
 
 # Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
+# See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
 defaultContentLanguage = "en"
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
@@ -15,4 +15,4 @@ hasCJKLanguage = false
 disqusShortname = "hugo-theme-stack"
 
 [pagination]
-pagerSize = 5
+    pagerSize = 5
