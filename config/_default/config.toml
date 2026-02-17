@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl      = "https://starter.stack.jimmycai.com/"
+baseurl      = "https://starter.stack.cai.im/"
 languageCode = "en-us"
 title        = "Hugo Theme Stack Starter"
 
